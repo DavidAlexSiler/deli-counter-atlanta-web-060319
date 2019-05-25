@@ -11,6 +11,7 @@ def line(katz_deli)
       line_with_names << puts "The line is currently: #{num}. #{name}"
       num += 1
     end
-    return
+    return line_with_names.each do |order|
+      puts order
   end
 end
