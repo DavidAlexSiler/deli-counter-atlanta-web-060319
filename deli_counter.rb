@@ -14,3 +14,7 @@ def line(katz_deli)
     puts "The line is currently: #{num_name.join(" ")}"
   end
 end
+
+def take_a_number(curr_line, person)
+  puts "Welcome, #{person}. You are number #{curr_line + 2} in line."
+end
