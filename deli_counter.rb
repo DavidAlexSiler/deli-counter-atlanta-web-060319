@@ -13,5 +13,6 @@ def line(katz_deli)
     end
     return line_with_names.each do |msg|
       puts msg
+    end
   end
 end
