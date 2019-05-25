@@ -1,1 +1,1 @@
-deli_counter
+def deli_counter
