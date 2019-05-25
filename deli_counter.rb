@@ -16,5 +16,5 @@ def line(katz_deli)
 end
 
 def take_a_number(curr_line, person)
-  puts "Welcome, #{person}. You are number #{curr_line + 2} in line."
+  puts "Welcome, #{person}. You are number #{curr_line.length + 2} in line."
 end
