@@ -10,4 +10,5 @@ def line(katz_deli)
       puts "The line is currently: #{line}. #{name}"
       line += 1
     end
+  end
 end
