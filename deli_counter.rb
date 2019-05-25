@@ -11,6 +11,6 @@ def line(katz_deli)
       num_name << ("#{num}. #{name}")
       num += 1
     end
-    puts "The line is currently"
+    puts "The line is currently (#{num_name})"
   end
 end
