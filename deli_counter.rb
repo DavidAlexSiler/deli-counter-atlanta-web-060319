@@ -8,6 +8,7 @@ def line(katz_deli)
     num_name = []
     num = 1
     katz_deli.each do |name|
+      
       puts "The line is currently: #{num}. #{name}"
       num += 1
     end
