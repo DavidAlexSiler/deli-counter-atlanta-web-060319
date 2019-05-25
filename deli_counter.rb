@@ -16,5 +16,7 @@ def line(katz_deli)
 end
 
 def take_a_number(curr_line, person)
+  if curr_line.length > 0
   puts "Welcome, #{person}. You are number #{curr_line.length + 1} in line."
+  
 end
