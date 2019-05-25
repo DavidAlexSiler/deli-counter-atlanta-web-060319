@@ -10,7 +10,5 @@ def line(katz_deli)
     katz_deli.each do |name|
       line_with_names << puts "The line is currently: #{num}. #{name}"
       num += 1
-    end
-    return line_with_names
   end
 end
