@@ -5,10 +5,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
   if katz_deli.length > 0
-    line = 1
+    num = 1
     katz_deli.each do |name|
-      puts "The line is currently: #{line}. #{name}"
-      line += 1
+      puts "The line is currently: #{num}. #{name}"
+      num += 1
     end
   end
 end
